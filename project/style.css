@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav .words:hover {
+    color: orange !important;
+    transition: 1.2s ease !important;
+}
+
+nav .words {
+    color: #000 !important;
+}
+
+.banner {
+    min-height: 100vh;
+    background: url('assets/img/istockphoto-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar-toggler {
+    border: 2px solid #000 !important;
+    background: #fff !important;
+}
+
+.navbar-toggler-icon {
+    color: #000 !important;
+    border: 1px solid #fff;
+}
+
+.play {
+    height: 50px;
+    width: 50px;
+    background: orange;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 25px;
+    margin: auto;
+}
+
+.col-sm-2 .small {
+    color: slategray !important;
+    font-size: 12px;
+}
+
+article span {
+    color: rgb(179, 156, 30);
+}
+
+.banner .activities {
+    margin-top: 10rem !important;
+}
+
+.banner .places {
+    transform: translateY(10rem);
+}
+
+.play-div {
+    transform: translateY(6rem);
+}
+
+.cart {
+    background: lightgray;
+    margin-top: 4rem;
+    padding: 1rem;
+}
+
+.pic {
+    width: 100%;
+}
